@@ -206,7 +206,7 @@ function renderChart(sigunCode, oils, ALL_data) {
             },
             scales: {
                 y: {
-                    min : 800,
+                    min : 500,
                     ticks: {
                         // y축 눈금 값 포맷
                         callback: function(value) {
